@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Poppins,sans-serif;
+}
+
+body{
+    background:#f4f7fb;
+}
+
+.navbar{
+    background:#1f2937;
+}
+
+.navbar-brand,
+.nav-link{
+    color:white !important;
+}
+
+.hero{
+    height:90vh;
+    display:flex;
+    align-items:center;
+}
+
+.hero h1{
+    font-size:3rem;
+    font-weight:700;
+}
+
+.hero p{
+    color:#555;
+}
+
+.btn-custom{
+    background:#2563eb;
+    color:white;
+    border:none;
+}
+
+.btn-custom:hover{
+    background:#1d4ed8;
+    color:white;
+}
+
+.card{
+    border:none;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.form-control{
+    border-radius:10px;
+}
+
+.result-box{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.upload-box{
+    border:2px dashed #2563eb;
+    padding:40px;
+    text-align:center;
+    border-radius:20px;
+    background:white;
+}
+
+.footer{
+    background:#1f2937;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
